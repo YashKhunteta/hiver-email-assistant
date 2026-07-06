@@ -1,0 +1,42 @@
+[
+  {
+    "id": "test_1",
+    "category": "billing_refund",
+    "subject": "Charged for subscription after cancelling",
+    "customer_email": "tom.jones@example.com",
+    "incoming_body": "Hello, I cancelled my subscription two days ago, but I was charged $25 on my card this morning. Please look into this and return my money.",
+    "target_reply": "Hi Tom,\n\nThanks for reaching out. I reviewed your account settings and confirmed that your cancellation did not finalize correctly before the billing run, which caused the $25.00 charge. \n\nI have finalized the cancellation of your subscription and processed a full refund of $25.00. You should see the credit on your bank statement in 5-10 business days.\n\nWe apologize for this system error and hope to welcome you back in the future.\n\nBest regards,\nSarah\nCustomer Support Team"
+  },
+  {
+    "id": "test_2",
+    "category": "technical_bug",
+    "subject": "Cannot upload profile picture",
+    "customer_email": "maria.gomez@example.com",
+    "incoming_body": "Hi, I keep trying to upload a profile picture in JPEG format (size 2MB) but I get a red text saying 'Upload failed'. What is going wrong? Can you help?",
+    "target_reply": "Hi Maria,\n\nI'm sorry to hear you're running into issues uploading your profile picture. We have a file size limit of 1.5MB for uploads, which is why your 2MB image is failing. \n\nCould you please try resizing the image to under 1.5MB and upload it again? If you continue to receive the error, please send the image file to me and I will upload it to your profile page manually.\n\nBest,\nAlex\nTechnical Support Team"
+  },
+  {
+    "id": "test_3",
+    "category": "sales_inquiry",
+    "subject": "Demo request and custom integrations",
+    "customer_email": "william.brown@example.com",
+    "incoming_body": "Hello, we run a large logistics firm and are looking at your platform. We want to see a demo of your reports dashboard and check if you support custom webhooks. Do you have time this week?",
+    "target_reply": "Hi William,\n\nThank you for your interest! Yes, our platform supports custom webhooks, which can be configured directly from the developer console.\n\nI would love to walk you through our reports dashboard and custom webhook setups. You can book a slot for a live demo with our team using this link: calendly.com/demolink. \n\nLet us know if none of those slots work, and we can find another time.\n\nBest,\nLiam\nSales Team"
+  },
+  {
+    "id": "test_4",
+    "category": "shipping_delivery",
+    "subject": "Change shipping address for Order 7721",
+    "customer_email": "sarah.connor@example.com",
+    "incoming_body": "Hi, I ordered a toolkit ten minutes ago (Order #7721) but I realized I put the office address instead of my home address. Can you change it to 789 Pine Rd, Seattle, WA 98101?",
+    "target_reply": "Hi Sarah,\n\nI have successfully updated your shipping address for Order #7721 to:\n789 Pine Rd\nSeattle, WA 98101\n\nYour order is currently processing and will ship to this new address. You will receive a shipping confirmation email with tracking details shortly.\n\nBest,\nOliver\nLogistics & Shipping Team"
+  },
+  {
+    "id": "test_5",
+    "category": "feature_request",
+    "subject": "Integrate with Microsoft Teams",
+    "customer_email": "daniel.craig@example.com",
+    "incoming_body": "Hello, our company uses Microsoft Teams for communication. Is there an integration to send notifications from your app into our Teams channels?",
+    "target_reply": "Hi Daniel,\n\nThank you for reaching out! While we do not have a native Microsoft Teams integration built-in yet, you can set up notifications using our custom outgoing webhooks or via Zapier.\n\nI have logged your request for a native Microsoft Teams integration with our engineering team, as this is on our product roadmap for Q3. I will update you as soon as it is released.\n\nBest,\nChloe\nProduct Feedback Team"
+  }
+]
