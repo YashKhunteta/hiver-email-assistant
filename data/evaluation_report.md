@@ -1,6 +1,6 @@
 # Hiver AI Suggestion Pipeline - Evaluation Report
 
-**Generated:** 2026-07-06T16:40:46.300138  
+**Generated:** 2026-07-15T14:13:55.816064  
 **Evaluation Mode:** `Simulated-Proxy`
 
 ## System Performance Summary
